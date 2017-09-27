@@ -23,5 +23,4 @@ void destroy_memory(memory* mem);
 // convert argument to address
 inline int* arg_to_addr(memory* mem, argument* arg);
 
-
 #endif

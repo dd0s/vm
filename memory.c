@@ -4,6 +4,7 @@ memory* create_memory(size_t size) {
     memory* mem;
     
     mem = (memory*)malloc(sizeof(memory));
+    // TODO: wtf, actually
     mem->int32 = (int*)malloc(size / sizeof(int));
 
     return mem;
